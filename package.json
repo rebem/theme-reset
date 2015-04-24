@@ -1,12 +1,12 @@
 {
-  "name": "yummies-theme-reset",
+  "name": "@yummies/theme-reset",
   "version": "0.1.1",
   "description": "Base theme that resets useragent styles",
   "keywords": [ "yummies", "yummies-theme" ],
-  "homepage": "https://github.com/yummies/yummies-theme-reset",
+  "homepage": "https://github.com/yummies/theme-reset",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yummies/yummies-theme-reset.git"
+    "url": "git://github.com/yummies/theme-reset.git"
   },
   "contributors": [
     {
