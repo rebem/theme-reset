@@ -4,25 +4,15 @@
   "description": "Base theme that resets useragent styles",
   "keywords": [ "yummies", "yummies-theme" ],
   "homepage": "https://github.com/yummies/theme-reset",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/yummies/theme-reset.git"
-  },
+  "repository": "yummies/theme-reset",
   "contributors": [
-    {
-      "name": "Kir Belevich",
-      "email": "kir@soulshine.in",
-      "url": "https://github.com/deepsweet"
-    },
-    {
-      "name": "Denis Koltsov",
-      "email": "iam@mistadikay.com",
-      "url": "https://github.com/mistadikay"
-    }
+    "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
+    "Denis Koltsov <iam@mistadikay.com> (https://github.com/mistadikay)"
   ],
-  "peerDependencies": {
-    "yummies-core-components": "0.x.x"
-  },
+  "files": [
+    "components/",
+    "LICENSE"
+  ],
   "engines": {
     "node": ">=0.10.0"
   },
