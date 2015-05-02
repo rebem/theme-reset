@@ -11,5 +11,20 @@
         width: 100%;
         box-sizing: border-box;
         outline: 0;
+
+        // prefixed because https://github.com/postcss/autoprefixer#why-doesnt-autoprefixer-support-appearance
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+
+        // remove the dropdown arrow for Firefox
+        text-indent: 0.01px;
+        text-overflow:'';
+    }
+
+    // remove the dropdown arrow IE10+
+    &::-ms-expand {
+        display: none;
     }
 }
