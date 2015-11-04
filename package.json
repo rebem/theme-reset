@@ -13,6 +13,10 @@
     "components/",
     "LICENSE"
   ],
+  "peerDependencies": {
+    "@yummies/yummies": "0.13.x",
+    "@yummies/dom": "0.2.x"
+  },
   "engines": {
     "node": ">=0.12.0",
     "npm": ">=2.7.0"
