@@ -12,7 +12,7 @@ export function lessBuild() {
     const mkdirp = require('mkdirp');
     const less = require('less');
 
-    const inRootDir = path.resolve('components/');
+    const inRootDir = path.resolve('src/');
     const outRootDir = path.resolve('build/');
 
     return new Promise((rootResolve, rootReject) => {
