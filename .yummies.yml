@@ -1,0 +1,3 @@
+dir: build/
+files:
+  styles: styles.less
