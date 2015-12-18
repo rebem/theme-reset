@@ -1,8 +1,7 @@
 const inFileName = 'styles.less';
 const outFileName = 'styles.css';
 const lessOptions = {
-    compress: false,
-    relativeUrls: true
+    compress: false
 };
 
 export function lessBuild() {
@@ -58,7 +57,9 @@ export function lessBuild() {
                             });
                         });
                     })
-            ).then(rootResolve);
+            )
+            .then(rootResolve)
+            .catch(rootReject);
         });
     });
 }
