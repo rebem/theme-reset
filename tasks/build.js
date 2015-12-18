@@ -1,5 +1,6 @@
-const inFileName = 'styles.less';
-const outFileName = 'styles.css';
+const inFileExtension = '.less';
+const outFileExtension = '.css';
+
 const lessOptions = {
     compress: false
 };
@@ -22,12 +23,13 @@ export function lessBuild() {
 
             return Promise.all(
                 readDirResult.files
-                    .filter(inFile => path.extname(inFile) === path.extname(inFileName))
+                    .filter(inFile => path.extname(inFile) === inFileExtension)
                     .map(inFile => {
+                        const fileName = path.basename(inFile, inFileExtension);
                         const inDir = path.dirname(inFile);
                         const relativeInDir = path.relative(inRootDir, inDir);
                         const outDir = path.resolve(outRootDir, relativeInDir);
-                        const outFile = path.resolve(outDir, outFileName);
+                        const outFile = path.resolve(outDir, fileName + outFileExtension);
 
                         return new Promise((resolve, reject) => {
                             mkdirp(outDir, (mkdirpErr) => {
