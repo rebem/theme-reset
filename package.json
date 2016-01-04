@@ -31,7 +31,8 @@
   },
   "scripts": {
     "task": "babel-node node_modules/.bin/start tasks/",
-    "build": "npm run task build"
+    "build": "npm run task build",
+    "prepublish": "npm run build"
   },
   "engines": {
     "node": ">=0.12.0",
