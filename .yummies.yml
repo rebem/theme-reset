@@ -1,9 +1,0 @@
-default:
-  path: build/
-  files:
-    styles: styles.css
-
-src:
-  path: src/
-  files:
-    styles: styles.less
