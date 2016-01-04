@@ -14,6 +14,7 @@
     ".yummies.yml",
     "LICENSE"
   ],
+  "main": "index.js",
   "peerDependencies": {
     "@yummies/yummies": "2.x.x"
   },
