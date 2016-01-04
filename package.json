@@ -18,7 +18,7 @@
     "@yummies/yummies": "2.x.x"
   },
   "devDependencies": {
-    "start": "1.1.x",
+    "start": "1.2.x",
     "del": "2.2.x",
     "node-dir": "0.1.x",
     "mkdirp": "0.5.x",
