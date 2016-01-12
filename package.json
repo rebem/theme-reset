@@ -16,7 +16,7 @@
   ],
   "main": "index.js",
   "peerDependencies": {
-    "@yummies/yummies": ">=3.0.0-alpha.1"
+    "@yummies/bem": "0.0.x"
   },
   "devDependencies": {
     "start": "1.2.x",
