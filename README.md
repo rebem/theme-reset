@@ -1,4 +1,4 @@
 [![npm](https://img.shields.io/npm/v/@yummies/theme-reset.svg?style=flat-square)](https://www.npmjs.com/package/@yummies/theme-reset)
-[![dev deps](http://img.shields.io/david/dev/yummies/theme-reset.svg?style=flat-square)](https://david-dm.org/yummies/theme-reset#info=devDependencies)
+[![deps](https://img.shields.io/gemnasium/yummies/theme-reset.svg?style=flat-square)](https://gemnasium.com/yummies/theme-reset)
 
 WIP
