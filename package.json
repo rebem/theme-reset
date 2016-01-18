@@ -2,7 +2,7 @@
   "name": "rebem-theme-reset",
   "version": "0.1.0",
   "description": "reBEM base theme that resets useragent styles",
-  "keywords": [ "yummies", "yummies-theme" ],
+  "keywords": [ "rebem", "rebem-theme", "react", "bem" ],
   "homepage": "https://github.com/rebem/rebem-theme-reset",
   "repository": "rebem/rebem-theme-reset",
   "contributors": [
@@ -12,7 +12,7 @@
   "files": [ "build/", "index.js" ],
   "main": "index.js",
   "peerDependencies": {
-    "@yummies/bem": "0.0.x"
+    "rebem": "0.1.x"
   },
   "devDependencies": {
     "start": "1.2.x",
