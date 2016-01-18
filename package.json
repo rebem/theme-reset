@@ -1,10 +1,10 @@
 {
-  "name": "@yummies/theme-reset",
-  "version": "2.0.0-alpha.7",
-  "description": "Base theme that resets useragent styles",
+  "name": "rebem-theme-reset",
+  "version": "0.1.0",
+  "description": "reBEM base theme that resets useragent styles",
   "keywords": [ "yummies", "yummies-theme" ],
-  "homepage": "https://github.com/yummies/theme-reset",
-  "repository": "yummies/theme-reset",
+  "homepage": "https://github.com/rebem/rebem-theme-reset",
+  "repository": "rebem/rebem-theme-reset",
   "contributors": [
     "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
     "Denis Koltsov <iam@mistadikay.com> (https://github.com/mistadikay)"
