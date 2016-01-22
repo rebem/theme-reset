@@ -1,7 +1,7 @@
 {
   "name": "rebem-theme-reset",
   "version": "0.1.0",
-  "description": "reBEM base theme that resets useragent styles",
+  "description": "reBEM theme that resets useragent styles",
   "keywords": [ "rebem", "rebem-theme", "react", "bem" ],
   "homepage": "https://github.com/rebem/theme-reset",
   "repository": "rebem/theme-reset",

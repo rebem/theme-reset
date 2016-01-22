@@ -2,3 +2,5 @@
 [![deps](https://img.shields.io/gemnasium/rebem/theme-reset.svg?style=flat-square)](https://gemnasium.com/rebem/theme-reset)
 
 WIP
+
+reBEM theme that resets useragent styles. Borrowed mainly from [normalize.css](https://github.com/necolas/normalize.css/) and [reset.css](http://cssreset.com/scripts/eric-meyer-reset-css/).
