@@ -12,7 +12,7 @@
   "files": [ "build/", "index.js" ],
   "main": "index.js",
   "peerDependencies": {
-    "rebem": "0.1.x"
+    "rebem": "0.x.x"
   },
   "devDependencies": {
     "start": "1.2.x",
