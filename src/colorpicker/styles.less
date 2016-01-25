@@ -1,8 +1,8 @@
 .colorpicker {
-    display: inline-flex;
+    display: inline-block;
     width: 20px;
     height: 20px;
-    box-sizing: border-box;
+    font-size: 0;
 
     &__control {
         background: none;
@@ -11,6 +11,8 @@
         padding: 0;
         width: 100%;
         height: 100%;
+        box-sizing: border-box;
+        line-height: normal;
 
         &::-webkit-color-swatch-wrapper {
             padding: 0;
