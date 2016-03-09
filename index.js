@@ -5,5 +5,5 @@ module.exports = {
     files: {
         styles: 'styles.css'
     },
-    exportFactory: true
+    importFactory: true
 };

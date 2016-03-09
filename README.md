@@ -4,3 +4,7 @@
 WIP
 
 reBEM theme that resets useragent styles. Borrowed mainly from [normalize.css](https://github.com/necolas/normalize.css/) and [reset.css](http://cssreset.com/scripts/eric-meyer-reset-css/).
+
+## Notes
+
+If you use `rebem-layers-loader`, please upgrade it to [v0.5.0](https://github.com/rebem/layers-loader/releases/tag/v0.5.0) or higher.
